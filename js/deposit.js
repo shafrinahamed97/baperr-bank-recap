@@ -39,6 +39,7 @@
     // step-7:
     const newBalanceTotal = previousBalanceTotalAmount+newDepositAmount;
     balanceTotalElement.innerText = newBalanceTotal;
+    
 
 
 
