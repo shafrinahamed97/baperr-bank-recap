@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Baper Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-4">Functional  <span class="text-red-500 font-medium">Baap-er-Bank</span>!!!</h1>
+    </header>
+
+    <main>
+        <!--balance and transaction summary-->
+        <section  class="mt-8 ">
+            <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto text-white ">
+                <div class="bg-yellow-400 p-8 rounded-lg"> <h4 class="text-3xl"> Deposit</h4>
+                    <h2 class="text-5xl font-medium">$<span id="desposit-total"></span>00 </h2>
+
+                </div>
+                <div class="bg-red-400 p-8 rounded-lg"> <h4 class="text-3xl">Withdraw</h4>
+                    <h2 class="text-5xl font-medium">$<span id="withdraw-total"></span>00 </h2>
+
+                </div>
+                <div class="bg-blue-400 p-8 rounded-lg"> <h4 class="text-3xl">Balance</h4>
+                    <h2 class="text-5xl font-medium">$<span id="balance-total"></span>1240</h2>
+
+                </div>
+                
+            </div>
+        </section>
+        <!--Deposit and Withdraw section-->
+    </main>
+    
+</body>
+</html>
